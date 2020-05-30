@@ -33,10 +33,11 @@
   color: white;
 }
 
-.social-media {
-  position: absolute;
-  margin-top: 47vh;
-  
+/* DELET AFTER WEBSITE IS LIVE */
+.ml3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 /* @keyframes App-logo-spin {
