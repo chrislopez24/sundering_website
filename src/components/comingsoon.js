@@ -17,9 +17,11 @@ const ComingSoon = () => {
     return (
           <header className="App-header">
             <img src={logo} className="guild-logo" alt="logo" />
-            <p>
-              Coming Soon...
-            </p>
+            <h1 class="ml1">
+              <span class="text-wrapper">
+              <span class="letters">Coming Soon...</span>
+              </span>
+            </h1>
     
             <LoadingComponent />
             
@@ -29,6 +31,7 @@ const ComingSoon = () => {
                     <img src={youtube}  className="youtube-icon" alt="youtube-alt"
                     style={styles}/>
             </div> 
+            
           </header>
       );
     }
