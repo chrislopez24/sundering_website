@@ -33,10 +33,10 @@
   color: white;
 }
 
-.footer {
-  margin-top: auto;
-  background-color: #0b1427;
-  position: relative;
+.social-media {
+  position: absolute;
+  margin-top: 90vh;
+  
 }
 
 /* @keyframes App-logo-spin {
