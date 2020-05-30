@@ -2,7 +2,6 @@ import React from 'react';
 // import logo from './logo.svg';
 import ComingSoon from './components/comingsoon'
 
-import 'normalize.css';
 import './App.css';
 
 function App() {
