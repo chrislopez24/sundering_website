@@ -5,19 +5,6 @@
   flex-direction: column;
 }
 
-
-.guild-logo {
-  height: 40vmin;
-  margin-top: 20vh;
-}
-
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .guild-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #0b1427;
   min-height: 100vh;
@@ -27,21 +14,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-/* DELET AFTER WEBSITE IS LIVE */
-.ml3.greatthings-module_ml3__E3ZCW {
-  font-weight: 400;
-  font-size: 1.5em;
-  font-style: italic;
-}
-
-
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

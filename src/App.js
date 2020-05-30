@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import ComingSoon from './components/comingsoon'
+import ComingSoon from './components/commingsoon/comingsoon'
 
 import './App.css';
 
