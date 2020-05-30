@@ -15,7 +15,7 @@ const stylesIcons = {
 
 const styledDivSocialMedia = {
   position: "absolute",
-  marginTop: "47vh"
+  marginTop: "90vh"
 }
 
 const ComingSoon = () => {
