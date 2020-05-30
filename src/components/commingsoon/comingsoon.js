@@ -1,8 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
 import logo from '../../assets/logo_high.png'
-import twitter from "../../assets/twitter_icon.png"
-import youtube from "../../assets/youtube_icon.png"
 import { GreatThings} from 'moving-letters'
 
 import LoadingComponent from '../loading'

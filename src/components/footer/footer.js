@@ -2,7 +2,6 @@ import React from "react"
 import twitter from "../../assets/twitter_icon.png"
 import youtube from "../../assets/youtube_icon.png"
 
-
 const stylesIcons = {
     height: "30px",
     padding: "0px 20px 0 0px"
