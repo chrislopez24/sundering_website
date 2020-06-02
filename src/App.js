@@ -1,20 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router,
-  Switch,
-  Route,
-  Link 
-} from 'react-router-dom';
+import React from "react";
 // import logo from './logo.svg';
-import ComingSoon from './components/comingsoon/comingsoon'
-import Footer from './components/footer/footer'
+import ComingSoon from "./components/comingsoon/comingsoon";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <ComingSoon />
-      
     </div>
   );
 }
