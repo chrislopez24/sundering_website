@@ -6,27 +6,9 @@ const ProgressOne = (props) => {
         // Start Single Progressbar 
         <div className={`rn-progress-bar ${props.ProgressStyle}`}>
             <div className="single-progress">
-                <h6 className="title">TEST</h6>
-                <ProgressBar now={95} />
-                <span className="label">95%</span>
-            </div>
-
-            <div className="single-progress">
-                <h6 className="title">TEST</h6>
-                <ProgressBar now={85} />
-                <span className="label">85%</span>
-            </div>
-
-            <div className="single-progress">
-                <h6 className="title">TEST</h6>
-                <ProgressBar now={75} />
-                <span className="label">75%</span>
-            </div>
-
-            <div className="single-progress">
-                <h6 className="title">TEST</h6>
-                <ProgressBar now={80} />
-                <span className="label">80%</span>
+                <h6 className="title">{props.title}</h6>
+                <ProgressBar now={props.currentBosses} max={props.totalBosses} label={`${props.currentBosses}/${props.totalBosses}`}/>
+                <span className="label">{props.currentBosses}/{props.totalBosses}</span>
             </div>
         </div>
         // {/* // End Progress Bar */}

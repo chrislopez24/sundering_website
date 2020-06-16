@@ -1,45 +1,18 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import ProgressOne from "../../blocks/progressbar/ProgressOne";
+import Data  from '../../data/data.js';
 
-const ProgressList = [
-    {
-        icon: <FiCast />,
-        title: 'Nyalo\'tha',
-        description: 'Placeholder Description'
-    },
-    {
-        icon: <FiLayers />,
-        title: 'Placeholder 2',
-        description: 'Placeholder Description.'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Placeholder 3',
-        description: 'Placeholder Description.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Placeholder 4',
-        description: 'Placeholder Description.'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Placeholder 5',
-        description: 'Placeholder Description.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Placeholder 6',
-        description: 'Placeholder Description.'
-    }
-]
-
+const Icon = ({icon}) => {
+    let DynamicIcon = require('react-icons/gi')[icon];
+    return (DynamicIcon) ? <DynamicIcon/> : null;
+}
 
 class ProgressComponent extends Component{
     render(){
         const {column } = this.props;
-        const ProgressContent = ProgressList.slice(0 , this.props.item);
+        const ProgressContent = Data.ProgressList.slice(0 , this.props.item);
         
+
         return(
             <React.Fragment>
                 <div className="row">
@@ -48,11 +21,12 @@ class ProgressComponent extends Component{
                             <a href="#progress">
                                 <div className="guildprogress guildprogress__style--2">
                                     <div className="icon">
-                                        {val.icon}
+                                        <Icon icon={val.icon}/>
                                     </div>
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>
                                         <p>{val.description}</p>
+                                        <ProgressOne title={val.title} currentBosses={val.currentBosses} totalBosses={val.totalBosses} />
                                     </div>
                                 </div>
                             </a>
