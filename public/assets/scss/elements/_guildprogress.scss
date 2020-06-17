@@ -159,8 +159,18 @@
                         @extend %textwhite;        
                     }
                 }
-                p{
+                p {
                     @extend %textwhite;  
+                }
+                .rn-progress-bar {
+                    .single-progress {
+                        .title{
+                            @extend %textwhite;        
+                        }
+                        .label{
+                            @extend %textwhite;        
+                        }
+                    }
                 }
             }
         }
