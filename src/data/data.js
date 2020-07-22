@@ -6,6 +6,7 @@ export default
             icon: 'GiLeechingWorm',
             title: 'Uldir',
             description: '',
+            type: "Progress",
             totalBosses: 8,
             currentBosses: 7
         },
@@ -13,6 +14,7 @@ export default
             icon: 'GiWomanElfFace',
             title: "Battle of Dazar'alor",
             description: '',
+            type: "Progress",
             totalBosses: 9,
             currentBosses: 9
         },
@@ -20,6 +22,7 @@ export default
             icon: 'GiSquidHead',
             title: "Crucible of Storms",
             description: '',
+            type: "Progress",
             totalBosses: 2,
             currentBosses: 0
         },
@@ -27,6 +30,7 @@ export default
             icon: 'GiTentaclesSkull',
             title: "Eternal Palace",
             description: '',
+            type: "Progress",
             totalBosses: 8,
             currentBosses: 3
         },
@@ -34,6 +38,7 @@ export default
             icon: 'GiBrainTentacle',
             title: "Ny'alotha",
             description: '',
+            type: "Progress",
             totalBosses: 12,
             currentBosses: 11
         }

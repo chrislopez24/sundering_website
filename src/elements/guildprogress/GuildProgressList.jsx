@@ -26,7 +26,7 @@ class ProgressComponent extends Component{
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>
                                         <p>{val.description}</p>
-                                        <ProgressOne title={val.title} currentBosses={val.currentBosses} totalBosses={val.totalBosses} />
+                                        <ProgressOne title={val.type} currentBosses={val.currentBosses} totalBosses={val.totalBosses} />
                                     </div>
                                 </div>
                             </a>
