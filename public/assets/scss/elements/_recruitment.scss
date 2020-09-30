@@ -35,8 +35,8 @@
         cursor: pointer;
 
         &::before{
-            background-color: #f6004c;
-            background-image: linear-gradient(#f6004c 10%, #000000 100%);
+            background-color: #f6004c0a;
+            background-image: linear-gradient(#9ecebc1f 80%, #9ecebc 100%);
             position: absolute;
             content: "";
             top: 0;
@@ -66,7 +66,9 @@
         &.recruitment-warlock{
             background-image: url(/assets/images/recruitment/recruitment-warlock.jpg);
         }
-
+        &.recruitment-druid{
+            background-image: url(/assets/images/recruitment/recruitment-druid.jpg);
+        }
         &.recruitment-paladin{
             background-image: url(/assets/images/recruitment/recruitment-paladin.jpg);
         }
@@ -132,6 +134,9 @@
 
         &.recruitment-warlock{
             background-image: url(/assets/images/recruitment/recruitment-warlock.jpg);
+        }
+        &.recruitment-druid{
+            background-image: url(/assets/images/recruitment/recruitment-druid.jpg);
         }
         &.recruitment-paladin{
             background-image: url(/assets/images/recruitment/recruitment-paladin.jpg);

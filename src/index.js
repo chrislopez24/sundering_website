@@ -28,7 +28,11 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/merch`} component={error404}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/merch`} component={() => { 
+                        window.open('https://6kskin.com/es/127-sundering');
+                        window.location.href = `${process.env.PUBLIC_URL}/`;
+                        return false;
+                        }}/>
                     <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                     <Route component={error404}/>
                 </Switch>

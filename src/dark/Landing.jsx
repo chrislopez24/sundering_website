@@ -102,7 +102,7 @@ const Landing = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">Guild Progress</h2>
-                                    <p>Little description About our current and past progress.</p>
+                                    <p>Current Shadowlands Progress.</p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const Landing = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <RecruitmentList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="3" />
+                                <RecruitmentList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="12" />
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">
