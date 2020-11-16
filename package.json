@@ -2,7 +2,7 @@
   "name": "sundering_webpage",
   "version": "1.0.0RC-1",
   "private": true,
-  "homepage": "wow.sunderingesports.com",
+  "homepage": "",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
